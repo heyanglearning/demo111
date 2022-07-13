@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo2
+  cloud:
+    consul:
+      host: 192.168.142.144
+      port: 8510
+      discovery:
+        service-name: demo2
+server:
+  port: 35111
